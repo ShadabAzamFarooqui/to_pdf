@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="deep_linking.firebase.project.com.recyclerviewtopdf.HomeActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/web_to_pdf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="WebVIew To Pdf"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/list_to_pdf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Recycler To Pdf"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:background="@color/splashText1"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Html To Image"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:background="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/html_to_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Html To Image"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:background="@color/green_bg_leftPanel"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
